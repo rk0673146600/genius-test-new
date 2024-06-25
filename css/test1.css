@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  padding: 16px 42px;
+  border: 5px solid darkred;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.box:nth-child(odd) {
+  background-color: gold;
+}
